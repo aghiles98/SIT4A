@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Gestion des remboursement"
+    name="prestation"
     id="8ef10644-f4a1-44db-8d91-442e65819d37">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
@@ -401,7 +401,7 @@
     <bounds
         x="1388"
         y="220"
-        width="120"
+        width="156"
         height="55"/>
     <archimateElement
         xsi:type="archimate:BusinessInterface"
