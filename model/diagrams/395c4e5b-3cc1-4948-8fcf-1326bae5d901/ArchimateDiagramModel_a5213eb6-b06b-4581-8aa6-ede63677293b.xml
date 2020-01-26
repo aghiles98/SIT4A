@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="gestion des etats"
+    name="gestion des cotisations"
     id="a5213eb6-b06b-4581-8aa6-ede63677293b">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
