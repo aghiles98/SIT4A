@@ -58,7 +58,8 @@
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="15c75446-dbe2-4e96-bad2-a42b048156fa">
+      id="15c75446-dbe2-4e96-bad2-a42b048156fa"
+      targetConnections="e159bbf4-0a68-4470-b3db-70485634dfe4">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="fa642716-5d7c-444b-a852-33537f45435e"
@@ -310,7 +311,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="f9593fc3-cab4-4f01-81f2-138709fbefd4"
-      targetConnections="4f6c131d-5855-46cf-8d03-1b89b50237a9">
+      targetConnections="4f6c131d-5855-46cf-8d03-1b89b50237a9 d9bce1e5-426b-46c7-8a7a-1c30af05f8c8">
     <bounds
         x="792"
         y="168"
@@ -319,5 +320,40 @@
     <archimateElement
         xsi:type="archimate:BusinessService"
         href="BusinessService_a24878bb-68ae-4fee-9375-26485f05f482.xml#a24878bb-68ae-4fee-9375-26485f05f482"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="20cb94cc-1b14-40c9-8ffe-5de70a5ac879">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="d9bce1e5-426b-46c7-8a7a-1c30af05f8c8"
+        source="20cb94cc-1b14-40c9-8ffe-5de70a5ac879"
+        target="f9593fc3-cab4-4f01-81f2-138709fbefd4">
+      <archimateRelationship
+          xsi:type="archimate:AssignmentRelationship"
+          href="AssignmentRelationship_5ac27f51-a2df-4ca0-ac16-31f0f6d91895.xml#5ac27f51-a2df-4ca0-ac16-31f0f6d91895"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="e159bbf4-0a68-4470-b3db-70485634dfe4"
+        source="20cb94cc-1b14-40c9-8ffe-5de70a5ac879"
+        target="15c75446-dbe2-4e96-bad2-a42b048156fa">
+      <bendpoints
+          startX="-516"
+          startY="-30"
+          endX="174"
+          endY="-30"/>
+      <archimateRelationship
+          xsi:type="archimate:ServingRelationship"
+          href="ServingRelationship_2d537fc2-dc29-4441-a46e-d299be83f252.xml#2d537fc2-dc29-4441-a46e-d299be83f252"/>
+    </sourceConnections>
+    <bounds
+        x="768"
+        y="39"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:BusinessInterface"
+        href="BusinessInterface_09c0d26b-c802-4b51-85c1-eac9708a0aec.xml#09c0d26b-c802-4b51-85c1-eac9708a0aec"/>
   </children>
 </archimate:ArchimateDiagramModel>
